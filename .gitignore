@@ -1,0 +1,5 @@
+exp2.tar.gz
+Singularity.gpu
+Singularity.cpu
+test/files/transcripts
+*.sif
