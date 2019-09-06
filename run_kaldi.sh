@@ -2,7 +2,7 @@
 
 # find out where this script is running from
 HERE=$(dirname $(readlink -f ${BASH_SOURCE[0]}))
-
+export PATH=/sbin:/usr/sbin:/usr/local/sbin:$PATH
 
 # check our parameters
 if [ "x$1" == "x" -o "x$2" == "x" ]; then
