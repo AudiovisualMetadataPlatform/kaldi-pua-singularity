@@ -35,6 +35,9 @@ export LC_ALL=en_US
     apt-get install -qq -y  python libatlas-base-dev software-properties-common curl gawk zip  \
         libperl4-corelibs-perl libjson-perl  python-pip libsox-dev nano rsync cmake irstlm
 
+    # update setuptools 
+    pip install --update setuptools
+    
     # setup python
     pip install -U ftfy==4.4.3
     alias python=python2.7 
